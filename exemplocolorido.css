@@ -1,0 +1,87 @@
+body{
+    background-color: #444444;
+    padding: 8px;
+    width: 1244px;
+    height: 616px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.legenda {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top:10px;
+    padding-left: 20px;
+    max-width: 100px;
+}
+
+.verde {
+    background-color: #4a9b5b;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+
+    grid-column: span 3;
+}
+
+.amarelo {
+    background-color: #ddda19;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+    grid-row: span 2;
+}
+
+.vermelho {
+    background-color: #cc2a2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+    grid-row: span 2;
+}
+
+.azul {
+    background-color: #200a9c;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+    grid-row: span 3;
+}
+
+.laranja {
+    background-color: #d1770f;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+    grid-column: span 2;
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-aound ;
+
+    margin-left: 20px;
+}
+
+.numero, .letra {
+    background: #e2e2e2;
+    border-radius: 5px;
+    max-width: 100px;
+    max-height: 75px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
